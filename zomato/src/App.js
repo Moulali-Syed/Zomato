@@ -1,5 +1,11 @@
+import HomePage from './pages/home';
+
 function App() {
-  return <div className="App">This is Zomato</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
